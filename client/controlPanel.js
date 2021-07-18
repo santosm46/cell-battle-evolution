@@ -25,7 +25,12 @@ class Zoom {
             let oldZoom = panel.zoom.value();
             const zoomChange = (e.deltaY > 0) ? 0.95 : 1.05;
             panel.zoom.changeZoomScale(zoomChange);
-            
+            // let sc = keyIsDown(32) ? 1 : panel.zoom.ivalue();
+
+            // pos.x -= (mouseX-width/2) * sc + width/2;
+            // pos.y -= (mouseY-height/2) * sc + height/2;
+            // panel.zoom.changeZoomScale(zoomChange);
+                    
         });
     }
 
